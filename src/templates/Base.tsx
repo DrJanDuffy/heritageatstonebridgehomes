@@ -1,9 +1,9 @@
+import { AppConfig } from '../utils/AppConfig';
 import { CommunityHighlights } from '../components/CommunityHighlights';
 import { FAQSection } from '../components/FAQSection';
 import { LeadCaptureForm } from '../components/LeadCaptureForm';
 import { MapEmbed } from '../components/MapEmbed';
 import { Meta } from '../layout/Meta';
-import { AppConfig } from '../utils/AppConfig';
 import { Section } from '../layout/Section';
 import { Banner } from './Banner';
 import { Footer } from './Footer';
@@ -19,14 +19,17 @@ const Base = () => (
     </div>
     <VerticalFeatures />
     <div id="contact">
-      <Section title="Contact Us" description="Get in touch about Heritage at Stonebridge homes.">
-      <div className="grid gap-8 lg:grid-cols-2">
-        <LeadCaptureForm />
-        <div>
-          <MapEmbed />
+      <Section
+        title="Contact Us"
+        description="Get in touch about Heritage at Stonebridge homes."
+      >
+        <div className="grid gap-8 lg:grid-cols-2">
+          <LeadCaptureForm />
+          <div>
+            <MapEmbed />
+          </div>
         </div>
-      </div>
-    </Section>
+      </Section>
     </div>
     <FAQSection />
     <Banner />

@@ -13,7 +13,13 @@ export default async function handler(
   }
 
   try {
-    const { firstName, lastName, email, phone, message } = req.body;
+    const {
+      firstName,
+      lastName,
+      email,
+      phone,
+      message,
+    } = req.body;
 
     if (!email || !firstName || !lastName) {
       return res.status(400).json({

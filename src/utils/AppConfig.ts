@@ -7,7 +7,7 @@ export const AppConfig = {
   site_name: 'Heritage at Stonebridge Homes',
   title: 'Heritage at Stonebridge Homes | Luxury Real Estate in Summerlin',
   description:
-    'Discover luxury homes in Heritage at Stonebridge, Summerlin\'s premier gated community. Dr. Jan Duffy with Berkshire Hathaway HomeServices Nevada Properties guides buyers and sellers.',
+    "Discover luxury homes in Heritage at Stonebridge, Summerlin's premier gated community. Dr. Jan Duffy with Berkshire Hathaway HomeServices Nevada Properties guides buyers and sellers.",
   locale: 'en',
   // NAP - Must match Google Business Profile exactly
   business: {

@@ -18,7 +18,9 @@ const LeadCaptureForm = () => {
     phone: '',
     message: '',
   });
-  const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+  const [status, setStatus] = useState<
+    'idle' | 'submitting' | 'success' | 'error'
+  >('idle');
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -61,17 +63,15 @@ const LeadCaptureForm = () => {
 
   return (
     <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-md">
-      <h3 className="mb-4 text-xl font-semibold text-gray-900">
-        Get in Touch
-      </h3>
+      <h3 className="mb-4 text-xl font-semibold text-gray-900">Get in Touch</h3>
       <p className="mb-6 text-gray-600">
-        Interested in Heritage at Stonebridge? Send a message and we'll respond
-        shortly.
+        Interested in Heritage at Stonebridge? Send a message and we&apos;ll
+        respond shortly.
       </p>
 
       {status === 'success' && (
         <div className="mb-4 rounded bg-green-50 p-4 text-green-800">
-          Thank you! We'll be in touch soon.
+          Thank you! We&apos;ll be in touch soon.
         </div>
       )}
       {status === 'error' && (
