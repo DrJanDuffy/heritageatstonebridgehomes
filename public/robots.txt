@@ -1,0 +1,7 @@
+# Heritage at Stonebridge Homes
+# https://heritageatstonebridgehomes.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://heritageatstonebridgehomes.com/sitemap.xml

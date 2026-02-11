@@ -5,6 +5,7 @@ import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
+import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
 
 const Hero = () => (
@@ -12,12 +13,13 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
+          <Link href="/#community">Community</Link>
         </li>
         <li>
-          <Link href="/">Sign in</Link>
+          <Link href="/#contact">Contact</Link>
+        </li>
+        <li>
+          <a href={AppConfig.business.phoneTel}>Call</a>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -26,14 +28,14 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'Luxury Homes in\n'}
+            <span className="text-primary-500">Heritage at Stonebridge</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Summerlin's premier gated community. Discover exceptional real estate with Dr. Jan Duffy at Berkshire Hathaway HomeServices Nevada Properties."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <Button xl>Download Your Free Theme</Button>
+          <Link href="/#contact">
+            <Button xl>Get in Touch</Button>
           </Link>
         }
       />

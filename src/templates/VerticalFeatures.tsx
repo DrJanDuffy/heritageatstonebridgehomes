@@ -3,27 +3,27 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Experience Heritage at Stonebridge"
+    description="A premier gated community in Summerlin offering luxury living, top-tier amenities, and an unmatched lifestyle."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Luxury Living"
+      description="Heritage at Stonebridge features beautifully designed homes with premium finishes, open floor plans, and scenic mountain or golf course views. Find your perfect estate in Las Vegas's most desirable master-planned community."
       image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      imageAlt="Luxury homes in Heritage at Stonebridge Summerlin"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Expert Local Representation"
+      description="Dr. Jan Duffy brings deep expertise in Summerlin and Henderson real estate. As your Berkshire Hathaway HomeServices Nevada Properties agent, she delivers personalized service for buyers and sellers."
       image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      imageAlt="Dr. Jan Duffy real estate agent Summerlin"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Full-Service Real Estate"
+      description="From first-time buyers to luxury sellers, we handle every step: market analysis, negotiations, inspections, and closing. Your Heritage at Stonebridge journey starts with a single conversation."
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="Real estate services Heritage at Stonebridge"
     />
   </Section>
 );
