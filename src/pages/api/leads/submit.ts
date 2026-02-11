@@ -13,13 +13,7 @@ export default async function handler(
   }
 
   try {
-    const {
-      firstName,
-      lastName,
-      email,
-      phone,
-      message,
-    } = req.body;
+    const { firstName, lastName, email, phone, message } = req.body;
 
     if (!email || !firstName || !lastName) {
       return res.status(400).json({
@@ -29,7 +23,13 @@ export default async function handler(
 
     // TODO: Add your CRM/webhook integration here
     // Example: await fetch('YOUR_FUB_WEBHOOK', { method: 'POST', body: JSON.stringify(...) });
-    console.log('Lead received:', { firstName, lastName, email, phone, message });
+    console.log('Lead received:', {
+      firstName,
+      lastName,
+      email,
+      phone,
+      message,
+    });
 
     return res.status(200).json({
       success: true,

@@ -1,10 +1,11 @@
-import { AppConfig } from '../utils/AppConfig';
+/* eslint-disable simple-import-sort/imports */
 import { CommunityHighlights } from '../components/CommunityHighlights';
 import { FAQSection } from '../components/FAQSection';
 import { LeadCaptureForm } from '../components/LeadCaptureForm';
 import { MapEmbed } from '../components/MapEmbed';
 import { Meta } from '../layout/Meta';
 import { Section } from '../layout/Section';
+import { AppConfig } from '../utils/AppConfig';
 import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
