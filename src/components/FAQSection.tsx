@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import Head from 'next/head';
 
 import { Section } from '../layout/Section';
@@ -13,15 +14,11 @@ const FAQ_ITEMS = [
     answer:
       'Heritage at Stonebridge offers a variety of single-family homes ranging from executive estates to custom luxury residences, many with mountain and golf course views.',
   },
-  /* eslint-disable prettier/prettier */
   {
     question: 'What amenities does Heritage at Stonebridge offer?',
     answer:
       "The community offers a private clubhouse, swimming pools, tennis courts, walking trails, parks, and 24-hour gated security. Residents also enjoy access to Summerlin's extensive parks and recreational facilities.",
-  }
-     ,
-  /* eslint-enable prettier/prettier */
-     
+  },
   {
     question: 'How can I schedule a showing for a home in Heritage at Stonebridge?',
     answer:
