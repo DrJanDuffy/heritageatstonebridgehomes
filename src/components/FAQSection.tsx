@@ -21,6 +21,7 @@ const FAQ_ITEMS = [
   }
      ,
   /* eslint-enable prettier/prettier */
+     
   {
     question: 'How can I schedule a showing for a home in Heritage at Stonebridge?',
     answer:
